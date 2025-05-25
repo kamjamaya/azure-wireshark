@@ -1,14 +1,14 @@
 # Utilizing Wireshark to Explore Network Traffic
 
 Go to portal.azure.com to get started and sign up for a subscription. They give you the first 30 days free and after that it adapts to a pay as you go model.
-![image alt](https://github.com/kamjamaya/azure-wireshark/blob/98941f7291e1cfbd1cbbee382551868764a8cb85/VM%20Project%201.png)
+
 After your account is set up we will create our first resource group.
 
 # Resource Group Configuration to Hold our Virtual Machines
 
 From your home screen on the Azure portal, select the “Resource Group” icon. 
 
-
+![image alt](https://github.com/kamjamaya/azure-wireshark/blob/98941f7291e1cfbd1cbbee382551868764a8cb85/VM%20Project%201.png)
 
 Next, click on the “create” blue icon in the middle of the screen to start the process of making a resource group. 
 
