@@ -12,6 +12,7 @@ From your home screen on the Azure portal, select the “Resource Group” icon.
 
 Next, click on the “create” blue icon in the middle of the screen to start the process of making a resource group. 
 
+![image alt](https://github.com/kamjamaya/azure-wireshark/blob/504187350274ebed0d46903e0301eacbe4669b9d/VM%20Project%202.png)
 
 Here you will name your Resource group and determine the region for it.
 
