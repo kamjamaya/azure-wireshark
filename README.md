@@ -27,7 +27,7 @@ Lastly, click “Create” in the left bottom corner to officially create the Re
 
 
 
-Configuring Virtual Machines
+# Configuring Virtual Machines
 From your home screen on the Azure portal, select the “Virtual Machines” icon.
 
 
@@ -107,7 +107,7 @@ Enter the username and password that you configured the virtual machine with in 
 
 You should see a screen similar to this where you have a Windows 10 OS Virtual Machine showing on top of your computer’s OS. We are officially in the Windows Virtual Machine! You know you are in the Virtual Machine if the IP Address is showing at the top in the window. 
 
-Utilizing Wireshark to Explore Network Traffic
+# Utilizing Wireshark to Explore Network Traffic
 
 
 Inside of the Virtual Machine click on Microsoft Edge.
@@ -130,7 +130,7 @@ Once we do that we will stop receiving echo replies from the Linux machine. We w
 
 
 
-Observe SSH Traffic in Wireshark
+# Observe SSH Traffic in Wireshark
  
 On the Windows VM reset the Wireshark activity by clearing out the filters. Then in Powershell, use the command ssh, the username for linux that you created @ the private IP address of the linux VM. For example I entered “ssh labuser@10.0.0.5”
 
@@ -162,11 +162,11 @@ This signals that we are officially in the Linux machine. Any prompts and keystr
 
 
 
-Observe DHCP Traffic in Wireshark
+# Observe DHCP Traffic in Wireshark
 DHCP uses UDP port 67 and 68 to assign IP addresses to client machines. 
 Now we will use Wireshark to filter for the Dynamic Host Configuration Protocol (DHCP).We will request a new IP address with the command "ipconfig /renew". You can see this traffic pictured below.
 
-Observe DNS Traffic in Wireshark
+# Observe DNS Traffic in Wireshark
 Now, we'll analyze DNS (Domain Name Server) traffic by filtering it on Wireshark. We will initiate DNS traffic by typing in the command "nslookup disney.com." This command essentially asks our DNS server what is Disney's IP address. DNS traffic utilizes port number 53. You can see this traffic pictured below.
 
 
@@ -176,6 +176,6 @@ Now, we'll analyze DNS (Domain Name Server) traffic by filtering it on Wireshark
 
 
 
-Observe RDP Traffic in Wireshark
+# Observe RDP Traffic in Wireshark
 Remote Desktop Protocol is used when remotely connecting from one computer to another to obtain a remote desktop GUI. This operates on TCP port 3389. Below is an example of the RDP traffic in Wireshark.
 
