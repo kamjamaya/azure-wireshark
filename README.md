@@ -52,11 +52,22 @@ You have free will to configure however you like and to what best fits your need
 
 ![image alt](https://github.com/kamjamaya/azure-wireshark/blob/889fc139f363efbdbc3de4293896d2ad937cd84b/VM%20Project%208.png)
 
-Also, check the licensing box at the bottom left corner.
+Go all the way down on that page and check the licensing box at the bottom left corner.
 
 ![image alt](https://github.com/kamjamaya/azure-wireshark/blob/889fc139f363efbdbc3de4293896d2ad937cd84b/VM%20Project%209.png)
 
-After that, select “Review + Create” to have your Virtual Machine validated and then created. 
+Once you are done configuring the basics of your virtual machine you will go to the Network setitings by either clicking on the tab at the top or by clicking 
+next twice to go to networking settings.
+
+Where it says "Virtual Machine" under Network Interface, select "create new."
+
+You can name your virtual network whatever you would like annd then click ok at the bottom of the screen.
+
+Make sure that for the virtual network of the virtual machine that the virtual network that you just created is selected.
+
+You can leave the rest of the networking settings as is.
+
+Then click on the blue "Review + Create" button in the bottom right corner of the screen to have your Virtual Machine validated and then created. 
 
 Congrats you just created your first Virtual Machine!
 
