@@ -48,7 +48,7 @@ Scroll down and you will see more configuration settings. Here are the ones that
 - Allow public inbound ports
 - Select inbound port RDP 3389
 
-You have free will to configure however you like and to what best fits your needs. 
+You can configure it however you like and to what best fits your needs. 
 
 ![image alt](https://github.com/kamjamaya/azure-wireshark/blob/889fc139f363efbdbc3de4293896d2ad937cd84b/VM%20Project%208.png)
 
