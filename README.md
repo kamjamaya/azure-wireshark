@@ -43,13 +43,9 @@ After that, we can start configuring our settings.
 For the Resource group, select the one that we created initially. You can also name your Virtual Machine as well. Select the same region as your resource group. From here you can configure the settings however you like. In this example I decided to use a Windows 10 Pro image. 
 
 Scroll down and you will see more configuration settings. Here are the ones that I selected: 
-
 - Select (Standard_E2s_v3 - 2 vcpus, 16 GiB memory ($97.09/month)
-
 - Create a username and password
-  
 - Allow public inbound ports
-
 - Select inbound port RDP 3389
 
 You have free will to configure however you like and to what best fits your needs. 
